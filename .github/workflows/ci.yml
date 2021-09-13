@@ -17,9 +17,8 @@ jobs:
     
     - name: Install and Build
       run: |
-        yarn add typescript@4.0.5
-        rm tsconfig.json
-        yarn build
+        yarn install
+        yarn run build
         
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.5
