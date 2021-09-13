@@ -202,7 +202,7 @@ const GitHubButton: React.FC<{}> = () => {
   );
 };
 
-const useInfoButtonStyles = makeStyles((theme) => ({
+/* const useInfoButtonStyles = makeStyles((theme) => ({
   paper: {
     maxWidth: 300,
     minWidth: 300,
@@ -215,7 +215,7 @@ const useInfoButtonStyles = makeStyles((theme) => ({
   },
 }));
 
-const InfoButton: React.FC<{}> = () => {
+const InfoButton: React.FC<{}> = () => { */
   const classes = useInfoButtonStyles();
   const [anchorEl, setAnchorEl] = useState(null);
 
