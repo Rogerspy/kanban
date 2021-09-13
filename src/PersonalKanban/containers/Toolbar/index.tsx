@@ -196,7 +196,7 @@ const GitHubButton: React.FC<{}> = () => {
       color="inherit"
       icon="gitHub"
       component={Link}
-      href="https://github.com/nishantpainter/personal-kanban"
+      href="https://github.com/rogerspy"
       target="_blank"
     />
   );
@@ -251,25 +251,8 @@ const InfoButton: React.FC<{}> = () => {
       >
         <Grid container spacing={1}>
           <Grid item xs={12}>
-            <Box marginTop={2} textAlign="center">
-              <img
-                src="https://stacks.rocks/site/templates/assets/images/stacks-logo-dark.svg"
-                height="30"
-                alt="Stacks"
-              />
-            </Box>
-          </Grid>
-          <Grid item xs={12}>
             <Typography variant="body2">
-              <Link href="https://stacks.rocks/" target="_blank">
-                Stacks
-              </Link>
-              &nbsp;is a cross-platform all-in-one project management tool that
-              works on top of a local folder.
-              <br />
-              <br />
-              Get 20% off on your order by applying coupon{" "}
-              <strong>NISHANT20</strong>
+              Kanban is a personal project management tool that works on top of a local folder.
               <br />
               <br />
             </Typography>
@@ -278,10 +261,10 @@ const InfoButton: React.FC<{}> = () => {
             <Button variant="contained" color="primary">
               <Link
                 color="inherit"
-                href="https://stacks.rocks/store/?coupon=NISHANT20"
+                href="https://rogerspy.github.io/"
                 target="_blank"
               >
-                Order Now
+                Go Back Home
               </Link>
             </Button>
           </Grid>
