@@ -18,7 +18,6 @@ jobs:
     - name: Build and Deploy
       uses: peaceiris/actions-gh-pages@v3
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         FOLDER: build
         BUILD_SCRIPT: npm install && npm run build
